@@ -1,0 +1,746 @@
+Flight_ID,Airline,Origin,Destination,Flight_Duration_Hours,Ticket_Price_INR,Seats_Available,Seats_Booked,Flight_Status,Passenger_Rating
+FL10001,AirAsia India,Chennai,Mumbai,2.9,3871,155,147,On Time,2.9
+FL10002,SpiceJet,Mumbai,Kolkata,3.9,7999,89,194,On Time,3.5
+FL10003,SpiceJet,Hyderabad,Bangalore,5.8,10018,109,74,On Time,4
+FL10004,Alliance Air,Mumbai,Delhi,5.8,3436,65,103,On Time,4.8
+FL10005,Alliance Air,Mumbai,Kolkata,4.8,13068,174,191,On Time,4.7
+FL10006,Alliance Air,Hyderabad,Mumbai,1.3,6998,76,36,On Time,4.1
+FL10007,Emirates,Mumbai,Bangalore,4,13680,176,166,On Time,2.6
+FL10008,Emirates,Chennai,Bangalore,3.3,13035,65,109,On Time,4.4
+FL10009,Alliance Air,Chennai,Kolkata,4.2,9164,159,110,On Time,3.8
+FL10010,AirAsia India,Bangalore,Mumbai,3,11403,94,115,On Time,3.4
+FL10013,Alliance Air,Kolkata,Bangalore,1.7,10025,108,64,Delayed,4.5
+FL10014,IndiGo,Chennai,Delhi,4.6,9782,129,143,Delayed,4.5
+FL10015,Alliance Air,Mumbai,Kolkata,1,7858,134,205,On Time,3.5
+FL10017,SpiceJet,Kolkata,Bangalore,5.2,12677,186,99,On Time,4.2
+FL10019,Emirates,Delhi,Chennai,2.6,14904,70,86,Delayed,3.4
+FL10022,Go First,Hyderabad,Mumbai,2.6,6567,85,131,On Time,4.3
+FL10023,IndiGo,Delhi,Chennai,3.9,6680,142,179,On Time,3.5
+FL10024,IndiGo,Delhi,Mumbai,5.7,12672,113,154,On Time,3.1
+FL10025,Vistara,Kolkata,Hyderabad,5.8,4961,173,75,On Time,3.5
+FL10026,Emirates,Mumbai,Bangalore,4.4,6966,132,134,On Time,4.9
+FL10027,AirAsia India,Mumbai,Hyderabad,5.9,11790,117,71,On Time,3.9
+FL10028,Akasa Air,Bangalore,Kolkata,4.9,8287,76,144,On Time,4.2
+FL10030,SpiceJet,Chennai,Delhi,4.4,12443,82,178,On Time,4.5
+FL10031,SpiceJet,Chennai,Delhi,4.3,3665,82,142,Delayed,4.8
+FL10032,Emirates,Delhi,Kolkata,1.3,6873,215,207,Delayed,4.7
+FL10033,SpiceJet,Chennai,Kolkata,3.4,11642,206,133,On Time,3.4
+FL10034,IndiGo,Bangalore,Mumbai,2.7,9574,82,110,Delayed,3
+FL10035,Air India,Hyderabad,Delhi,1.2,12570,194,110,Delayed,4
+FL10036,IndiGo,Kolkata,Chennai,4.2,9629,109,78,On Time,3.9
+FL10037,IndiGo,Hyderabad,Bangalore,5.9,12987,169,184,Cancelled,2.9
+FL10038,AirAsia India,Chennai,Bangalore,3.9,7092,86,53,Delayed,2.5
+FL10040,Alliance Air,Mumbai,Delhi,5.7,6824,101,134,On Time,4.5
+FL10042,IndiGo,Kolkata,Mumbai,1.8,11793,177,162,On Time,2.7
+FL10043,Alliance Air,Kolkata,Bangalore,4,9514,147,169,On Time,3.8
+FL10044,Alliance Air,Mumbai,Hyderabad,5.3,10285,127,118,Delayed,3.6
+FL10045,Alliance Air,Mumbai,Hyderabad,4.9,9711,181,88,On Time,4.2
+FL10048,Akasa Air,Bangalore,Delhi,5.4,10490,87,93,Delayed,4.1
+FL10049,SpiceJet,Mumbai,Chennai,4.7,4066,179,76,Delayed,4.3
+FL10050,Air India,Delhi,Kolkata,3.8,12732,216,47,On Time,3.1
+FL10051,SpiceJet,Hyderabad,Mumbai,5.9,11102,66,166,On Time,3.5
+FL10053,SpiceJet,Delhi,Mumbai,2.6,9275,170,209,On Time,4
+FL10054,Akasa Air,Kolkata,Hyderabad,5.8,7588,110,59,On Time,2.9
+FL10056,Air India,Delhi,Hyderabad,4.5,3486,159,111,Delayed,4.2
+FL10057,Go First,Hyderabad,Bangalore,3.6,14397,126,193,On Time,2.6
+FL10058,Air India,Delhi,Kolkata,4,4640,72,185,On Time,4.8
+FL10059,Vistara,Mumbai,Delhi,1.4,6882,127,69,Delayed,4.4
+FL10060,SpiceJet,Kolkata,Delhi,1,12918,183,150,Delayed,3.3
+FL10061,Vistara,Mumbai,Hyderabad,2.6,13881,216,106,On Time,2.7
+FL10062,Vistara,Hyderabad,Kolkata,3,13786,198,41,On Time,4.6
+FL10063,Go First,Kolkata,Mumbai,4.2,4205,90,46,Delayed,2.7
+FL10064,Alliance Air,Hyderabad,Bangalore,3.7,7856,200,209,On Time,4
+FL10065,SpiceJet,Kolkata,Bangalore,1.3,11276,195,121,On Time,4.5
+FL10066,IndiGo,Mumbai,Hyderabad,1.3,11161,120,46,On Time,2.6
+FL10067,SpiceJet,Kolkata,Delhi,4.3,6004,169,163,On Time,4.6
+FL10069,Go First,Mumbai,Kolkata,3.4,5641,146,203,On Time,4.9
+FL10071,IndiGo,Delhi,Bangalore,3,6284,140,82,Delayed,4
+FL10072,Akasa Air,Kolkata,Hyderabad,1.3,8684,192,134,On Time,4.7
+FL10073,Emirates,Delhi,Kolkata,4.6,12260,148,134,On Time,5
+FL10074,AirAsia India,Delhi,Chennai,2.1,3064,105,102,On Time,2.9
+FL10075,Alliance Air,Delhi,Bangalore,3.4,10860,76,196,On Time,2.7
+FL10076,Vistara,Delhi,Chennai,2.4,14827,102,88,Delayed,4.7
+FL10077,Alliance Air,Hyderabad,Delhi,2.8,12781,115,41,On Time,3.1
+FL10078,SpiceJet,Chennai,Kolkata,3.5,13907,90,88,Delayed,3.7
+FL10080,AirAsia India,Hyderabad,Bangalore,4.6,14908,75,184,On Time,4.5
+FL10082,Go First,Hyderabad,Chennai,4.8,5029,170,190,Cancelled,5
+FL10083,AirAsia India,Kolkata,Chennai,1.2,4614,141,93,Cancelled,4.9
+FL10088,Akasa Air,Delhi,Bangalore,4.5,8106,74,101,Delayed,3.5
+FL10089,Akasa Air,Bangalore,Mumbai,4.5,3486,191,139,On Time,3.4
+FL10090,IndiGo,Bangalore,Kolkata,1.1,2441,141,154,On Time,4.7
+FL10091,AirAsia India,Kolkata,Chennai,1.9,6241,76,109,Delayed,4.7
+FL10092,Vistara,Kolkata,Chennai,1.7,12714,84,38,On Time,3.1
+FL10093,AirAsia India,Chennai,Delhi,2.7,5017,73,78,On Time,3.4
+FL10094,Emirates,Kolkata,Bangalore,1.8,13764,62,172,On Time,2.6
+FL10095,Vistara,Mumbai,Chennai,3.2,7235,124,200,On Time,2.6
+FL10096,Akasa Air,Mumbai,Bangalore,4.6,13580,190,187,Delayed,3.3
+FL10097,Air India,Mumbai,Bangalore,5.1,11680,188,167,On Time,2.8
+FL10100,Go First,Chennai,Hyderabad,3.5,4556,208,126,On Time,3.3
+FL10102,AirAsia India,Chennai,Mumbai,5.6,8413,102,178,Delayed,3.1
+FL10103,Emirates,Chennai,Mumbai,4.6,8943,153,92,On Time,4.2
+FL10106,Alliance Air,Delhi,Hyderabad,5,4998,112,68,On Time,3.4
+FL10108,Akasa Air,Delhi,Mumbai,1.8,12199,96,84,On Time,3.1
+FL10109,AirAsia India,Kolkata,Chennai,1.9,3582,121,84,On Time,4.6
+FL10110,Emirates,Delhi,Hyderabad,4.5,14254,162,103,On Time,3.3
+FL10111,Air India,Kolkata,Chennai,5.6,2271,214,110,On Time,2.7
+FL10112,Go First,Delhi,Chennai,1.7,4555,60,139,Cancelled,4.2
+FL10113,Go First,Delhi,Chennai,5.9,6953,187,36,On Time,4.2
+FL10114,Emirates,Kolkata,Delhi,4.9,6738,192,44,On Time,3.2
+FL10116,Alliance Air,Bangalore,Delhi,1.3,13370,106,100,Delayed,2.6
+FL10117,Alliance Air,Bangalore,Hyderabad,3.1,10625,67,85,Delayed,4.9
+FL10118,Akasa Air,Mumbai,Chennai,3.7,12367,119,202,On Time,3.8
+FL10119,Alliance Air,Hyderabad,Bangalore,2.7,2222,215,44,Delayed,2.7
+FL10120,Go First,Mumbai,Chennai,5.1,14363,77,117,On Time,3.3
+FL10121,AirAsia India,Bangalore,Hyderabad,2.9,2350,71,200,On Time,4.2
+FL10122,Vistara,Mumbai,Delhi,3.7,11876,89,42,Delayed,4.8
+FL10123,IndiGo,Hyderabad,Chennai,3.9,10581,141,129,Delayed,3.9
+FL10124,Go First,Bangalore,Chennai,4.9,6471,91,53,On Time,4.6
+FL10126,IndiGo,Kolkata,Chennai,5.2,3831,182,207,On Time,3.2
+FL10127,Go First,Bangalore,Hyderabad,3.9,4388,121,90,Delayed,2.5
+FL10128,Alliance Air,Mumbai,Bangalore,5.2,3118,190,113,On Time,4
+FL10129,Air India,Delhi,Mumbai,3.5,5940,203,65,Delayed,3.7
+FL10130,Emirates,Bangalore,Mumbai,3.8,12891,176,139,Delayed,3.7
+FL10131,Akasa Air,Delhi,Kolkata,5.7,4246,162,209,On Time,2.7
+FL10132,IndiGo,Kolkata,Chennai,4.1,13258,87,178,On Time,4
+FL10133,Vistara,Delhi,Kolkata,4.2,6088,90,95,Delayed,4.8
+FL10134,IndiGo,Mumbai,Bangalore,5.2,8830,176,101,Cancelled,4.2
+FL10135,Alliance Air,Hyderabad,Kolkata,5.5,5797,88,154,On Time,2.8
+FL10136,AirAsia India,Bangalore,Hyderabad,2.2,14807,143,59,Cancelled,3.7
+FL10137,Vistara,Bangalore,Chennai,4.3,10412,189,189,On Time,4.5
+FL10138,Go First,Mumbai,Hyderabad,1.6,6588,170,46,Delayed,4.6
+FL10139,Air India,Chennai,Mumbai,1.3,12112,212,124,Delayed,3.3
+FL10140,IndiGo,Bangalore,Kolkata,4.2,8683,218,78,Cancelled,3.7
+FL10141,IndiGo,Mumbai,Delhi,3.5,7902,148,81,On Time,4.1
+FL10142,Air India,Kolkata,Hyderabad,5.4,2390,173,144,Delayed,3.1
+FL10143,Air India,Chennai,Delhi,2.8,14442,86,147,Delayed,2.6
+FL10145,SpiceJet,Kolkata,Delhi,4.8,9703,113,38,On Time,3.2
+FL10146,Vistara,Delhi,Mumbai,2.6,7396,141,57,On Time,3.7
+FL10147,IndiGo,Kolkata,Bangalore,2.4,4780,124,118,On Time,4
+FL10148,Akasa Air,Chennai,Bangalore,4.5,9344,194,62,Delayed,2.5
+FL10149,Emirates,Bangalore,Chennai,4.9,10771,64,179,On Time,4.9
+FL10150,Alliance Air,Kolkata,Chennai,3.9,14638,115,171,On Time,3
+FL10151,Air India,Delhi,Hyderabad,1.7,2668,121,193,Delayed,4.4
+FL10152,Akasa Air,Chennai,Hyderabad,5,8701,115,58,Delayed,4.6
+FL10154,AirAsia India,Mumbai,Hyderabad,4.2,4746,91,32,Delayed,4.2
+FL10155,Alliance Air,Chennai,Hyderabad,3.7,9600,203,151,Delayed,3.6
+FL10156,Air India,Mumbai,Chennai,3,2698,118,195,Delayed,3.2
+FL10157,IndiGo,Delhi,Hyderabad,5.1,8606,64,90,On Time,3.4
+FL10158,Vistara,Kolkata,Chennai,3.6,13334,108,186,On Time,4
+FL10159,Alliance Air,Kolkata,Hyderabad,4.7,10149,193,45,On Time,4.4
+FL10160,IndiGo,Delhi,Mumbai,3.6,11921,90,54,On Time,4.8
+FL10161,IndiGo,Chennai,Hyderabad,1.7,2486,88,209,On Time,3.2
+FL10162,Emirates,Kolkata,Hyderabad,1.6,2924,207,170,On Time,4
+FL10163,Vistara,Hyderabad,Chennai,1.2,14814,163,121,Delayed,3.8
+FL10164,IndiGo,Bangalore,Kolkata,2.5,13984,64,99,On Time,2.9
+FL10165,Go First,Hyderabad,Chennai,1.7,11283,109,39,On Time,3.4
+FL10166,Go First,Bangalore,Chennai,5,8193,145,176,On Time,2.8
+FL10169,Emirates,Kolkata,Chennai,3.3,6171,217,169,On Time,3.2
+FL10171,Go First,Delhi,Mumbai,3.6,14913,98,74,Delayed,2.7
+FL10173,Akasa Air,Hyderabad,Bangalore,5.2,3020,120,108,On Time,4.4
+FL10174,IndiGo,Delhi,Bangalore,1.9,12428,184,207,Delayed,4.7
+FL10175,Alliance Air,Bangalore,Mumbai,5.4,13809,128,194,On Time,3.5
+FL10176,Vistara,Mumbai,Bangalore,3.3,10676,74,104,On Time,3.8
+FL10177,IndiGo,Bangalore,Delhi,5.8,5677,128,47,On Time,3.2
+FL10178,SpiceJet,Kolkata,Mumbai,4,6326,69,36,Delayed,4.2
+FL10179,Emirates,Chennai,Mumbai,1,12885,91,145,On Time,2.8
+FL10180,SpiceJet,Delhi,Hyderabad,1,5103,136,107,On Time,3.2
+FL10181,Alliance Air,Kolkata,Mumbai,2.3,4930,178,98,On Time,3.2
+FL10183,IndiGo,Delhi,Kolkata,3.8,14636,94,61,On Time,4.8
+FL10185,Akasa Air,Hyderabad,Bangalore,3.5,3740,77,91,Delayed,3.9
+FL10186,AirAsia India,Delhi,Hyderabad,2.1,4797,92,115,On Time,2.7
+FL10187,Air India,Hyderabad,Delhi,1.3,3675,208,153,On Time,3.3
+FL10188,IndiGo,Delhi,Kolkata,2.8,5340,143,50,On Time,4.7
+FL10190,IndiGo,Bangalore,Hyderabad,1.9,4156,145,34,On Time,4.8
+FL10191,Air India,Chennai,Hyderabad,3.6,7733,103,167,On Time,3.3
+FL10192,Emirates,Mumbai,Hyderabad,4.7,12025,140,200,On Time,4.1
+FL10193,Akasa Air,Bangalore,Mumbai,6,13457,92,156,On Time,2.9
+FL10194,Air India,Hyderabad,Mumbai,4.5,7774,135,103,On Time,4.7
+FL10195,AirAsia India,Chennai,Bangalore,1.7,7169,99,128,Cancelled,4.9
+FL10196,Emirates,Bangalore,Chennai,4.1,10344,145,141,Cancelled,4.1
+FL10197,Go First,Delhi,Kolkata,2,4653,76,153,On Time,3.9
+FL10198,Vistara,Mumbai,Delhi,2.7,6024,119,189,On Time,4.8
+FL10199,Akasa Air,Delhi,Kolkata,4.2,13291,202,152,On Time,3.1
+FL10200,Alliance Air,Kolkata,Mumbai,5.1,10401,100,76,On Time,4.7
+FL10201,Akasa Air,Delhi,Hyderabad,2.8,3173,171,128,Delayed,2.7
+FL10202,Air India,Bangalore,Mumbai,2.1,5612,112,181,On Time,3.4
+FL10204,Emirates,Mumbai,Delhi,3.8,2465,216,125,On Time,4.4
+FL10205,Go First,Bangalore,Kolkata,5.8,13048,133,91,On Time,3.4
+FL10206,Vistara,Delhi,Kolkata,3.7,10839,127,62,On Time,4.5
+FL10207,AirAsia India,Mumbai,Chennai,1.2,8184,116,37,On Time,4
+FL10208,Vistara,Kolkata,Mumbai,2.5,4438,119,47,Delayed,3.7
+FL10209,Go First,Hyderabad,Bangalore,4.6,14450,186,90,On Time,3.3
+FL10210,Alliance Air,Kolkata,Delhi,5.7,13287,64,90,Delayed,4.1
+FL10211,Alliance Air,Mumbai,Delhi,1.7,14249,94,65,Cancelled,5
+FL10212,Go First,Kolkata,Chennai,5.3,7302,175,162,On Time,4.4
+FL10213,Go First,Chennai,Delhi,4.9,12995,156,149,Delayed,2.7
+FL10214,AirAsia India,Delhi,Hyderabad,3.1,8242,63,208,On Time,2.9
+FL10215,IndiGo,Bangalore,Mumbai,5.7,8096,110,208,On Time,4.9
+FL10216,AirAsia India,Bangalore,Chennai,3.7,7224,94,60,On Time,3.2
+FL10217,Akasa Air,Kolkata,Mumbai,2.7,9396,188,149,On Time,4.9
+FL10218,AirAsia India,Kolkata,Delhi,3.1,8585,66,193,Delayed,3
+FL10219,Vistara,Chennai,Mumbai,2.2,14325,163,156,On Time,3
+FL10220,AirAsia India,Kolkata,Chennai,3.1,10468,183,106,On Time,4.9
+FL10221,Emirates,Mumbai,Chennai,4.2,4421,92,134,Delayed,4.2
+FL10222,Alliance Air,Hyderabad,Mumbai,2.9,7652,142,30,On Time,4.7
+FL10223,IndiGo,Chennai,Hyderabad,1.7,13029,71,85,On Time,4.9
+FL10224,Go First,Delhi,Chennai,5.6,4609,174,198,Delayed,2.7
+FL10225,Emirates,Hyderabad,Kolkata,4.6,13588,156,153,On Time,3
+FL10226,Alliance Air,Kolkata,Bangalore,1.9,9602,140,64,On Time,2.9
+FL10227,Alliance Air,Delhi,Chennai,5.1,9392,141,126,On Time,3.2
+FL10229,Vistara,Hyderabad,Delhi,2.4,7892,187,58,Delayed,3.1
+FL10231,AirAsia India,Chennai,Delhi,5.7,9704,94,102,On Time,2.9
+FL10232,Air India,Hyderabad,Delhi,2.7,14564,101,142,Delayed,3.3
+FL10233,SpiceJet,Chennai,Mumbai,2.8,10335,179,34,Delayed,4.5
+FL10234,Akasa Air,Kolkata,Mumbai,1.9,7380,176,49,On Time,4.2
+FL10236,SpiceJet,Delhi,Kolkata,5.5,10462,66,151,On Time,3.2
+FL10237,Go First,Kolkata,Chennai,5.8,12559,91,182,On Time,3.4
+FL10239,Akasa Air,Kolkata,Chennai,5.6,11054,148,86,Delayed,3.7
+FL10240,IndiGo,Kolkata,Mumbai,2,11408,77,162,On Time,3.8
+FL10241,Akasa Air,Chennai,Bangalore,5.4,5792,150,42,Delayed,3
+FL10242,Air India,Bangalore,Mumbai,5,14805,65,197,Delayed,2.6
+FL10244,Vistara,Hyderabad,Bangalore,2.9,9376,133,162,Delayed,3.6
+FL10245,Akasa Air,Mumbai,Hyderabad,2.5,2843,107,86,On Time,4.7
+FL10246,Emirates,Hyderabad,Kolkata,5.2,9381,153,120,On Time,4.3
+FL10247,Alliance Air,Mumbai,Kolkata,2.2,13039,207,196,On Time,3.7
+FL10248,Go First,Delhi,Hyderabad,3.3,3028,160,152,On Time,2.6
+FL10249,Alliance Air,Bangalore,Kolkata,4.6,7446,75,116,Delayed,4.7
+FL10251,SpiceJet,Delhi,Mumbai,2.8,4227,95,119,Delayed,3.7
+FL10252,Alliance Air,Bangalore,Chennai,2.7,2562,115,138,On Time,3.8
+FL10253,AirAsia India,Delhi,Chennai,3.7,14810,131,37,On Time,3.9
+FL10254,Vistara,Hyderabad,Mumbai,5.6,13440,76,68,On Time,4
+FL10255,SpiceJet,Chennai,Kolkata,6,6791,81,116,Delayed,4.7
+FL10256,Air India,Bangalore,Chennai,2.4,14390,122,121,Delayed,3.1
+FL10257,Air India,Bangalore,Kolkata,3.3,2594,214,45,On Time,4.9
+FL10258,Emirates,Hyderabad,Mumbai,4.3,9515,99,140,On Time,3.6
+FL10259,Akasa Air,Kolkata,Delhi,1.9,8533,137,55,On Time,4.6
+FL10260,Vistara,Hyderabad,Chennai,1.8,14474,163,54,On Time,4.3
+FL10261,Air India,Kolkata,Mumbai,2.7,5890,131,67,On Time,4.2
+FL10262,Alliance Air,Mumbai,Hyderabad,4.9,11278,171,113,On Time,3
+FL10263,IndiGo,Chennai,Bangalore,1.1,5592,75,166,Delayed,4.7
+FL10265,Emirates,Mumbai,Kolkata,3.2,2790,153,149,On Time,3.3
+FL10266,Air India,Mumbai,Hyderabad,4.2,4346,188,157,Delayed,2.8
+FL10267,Vistara,Hyderabad,Bangalore,3.2,13896,126,171,Delayed,3.2
+FL10269,IndiGo,Hyderabad,Mumbai,1.8,10319,191,146,On Time,4.6
+FL10270,Air India,Chennai,Hyderabad,5,11025,180,198,On Time,4.6
+FL10271,Air India,Delhi,Hyderabad,5.4,13008,180,209,On Time,2.9
+FL10272,Go First,Delhi,Bangalore,1.4,6169,84,66,On Time,3.8
+FL10273,Go First,Chennai,Delhi,4.9,6829,175,129,On Time,4.1
+FL10274,AirAsia India,Hyderabad,Chennai,1.3,9232,165,68,On Time,4.9
+FL10275,IndiGo,Mumbai,Chennai,3.3,4789,205,117,Delayed,3.6
+FL10277,Vistara,Bangalore,Hyderabad,1.5,5607,112,160,On Time,3.4
+FL10278,Akasa Air,Mumbai,Delhi,3.9,11136,194,175,Delayed,4.6
+FL10279,Vistara,Bangalore,Mumbai,3.9,4285,217,145,On Time,4.7
+FL10281,Akasa Air,Bangalore,Delhi,3.3,14168,73,42,Delayed,4.8
+FL10282,IndiGo,Bangalore,Delhi,5.9,5033,122,191,On Time,2.7
+FL10284,Vistara,Chennai,Mumbai,4.1,9598,198,178,Delayed,3.6
+FL10285,AirAsia India,Hyderabad,Chennai,1.4,9646,117,49,On Time,4.8
+FL10286,SpiceJet,Kolkata,Chennai,1.2,11045,151,132,On Time,3.6
+FL10287,Go First,Hyderabad,Mumbai,6,14805,203,177,Delayed,2.7
+FL10289,AirAsia India,Hyderabad,Chennai,1.8,12342,168,202,Delayed,2.7
+FL10290,Akasa Air,Delhi,Chennai,2.6,7260,171,60,Delayed,3.2
+FL10291,Emirates,Kolkata,Delhi,5.6,5595,151,160,On Time,5
+FL10292,Vistara,Mumbai,Kolkata,2.3,13777,202,52,On Time,5
+FL10293,Akasa Air,Mumbai,Delhi,4.9,10394,62,76,On Time,4.3
+FL10294,AirAsia India,Bangalore,Hyderabad,4.4,10248,102,49,Delayed,3.7
+FL10295,Go First,Chennai,Kolkata,1.5,4452,83,139,On Time,2.5
+FL10296,SpiceJet,Mumbai,Hyderabad,1,12248,179,61,On Time,3.3
+FL10297,Go First,Delhi,Mumbai,5.9,8256,168,65,On Time,3.2
+FL10298,Vistara,Mumbai,Chennai,3,3345,140,192,Delayed,3.9
+FL10299,AirAsia India,Bangalore,Chennai,3.7,12794,184,142,On Time,3.8
+FL10300,Akasa Air,Chennai,Bangalore,1.4,5774,188,175,On Time,4.2
+FL10301,SpiceJet,Delhi,Kolkata,5.6,11336,118,43,On Time,4.2
+FL10303,Go First,Kolkata,Mumbai,2.6,13476,152,111,Delayed,4.1
+FL10304,Alliance Air,Chennai,Kolkata,2.8,5651,103,153,On Time,2.8
+FL10305,Go First,Mumbai,Delhi,5,4687,209,105,On Time,2.6
+FL10306,Emirates,Delhi,Bangalore,5.1,13565,190,37,On Time,3.3
+FL10307,Go First,Mumbai,Delhi,6,14311,147,45,On Time,4.1
+FL10308,Vistara,Delhi,Chennai,1.8,7232,125,59,On Time,2.6
+FL10309,IndiGo,Delhi,Kolkata,1.5,4974,111,47,On Time,4.2
+FL10312,Vistara,Bangalore,Chennai,5,3522,217,82,On Time,3.9
+FL10313,Akasa Air,Hyderabad,Delhi,5,5157,93,192,On Time,3.8
+FL10314,SpiceJet,Hyderabad,Bangalore,5,10686,174,81,On Time,3.4
+FL10315,Akasa Air,Chennai,Delhi,3.8,3386,186,156,Delayed,4.5
+FL10316,Emirates,Hyderabad,Chennai,2.5,5080,210,179,Delayed,4.6
+FL10317,Alliance Air,Kolkata,Delhi,4.4,10187,153,105,On Time,3.8
+FL10318,IndiGo,Bangalore,Chennai,1.2,11181,64,30,On Time,4.5
+FL10319,Vistara,Delhi,Chennai,1.4,11413,173,50,On Time,3.7
+FL10320,Alliance Air,Chennai,Bangalore,3.3,11143,135,179,Delayed,4.5
+FL10321,Emirates,Mumbai,Delhi,1.8,4087,195,43,On Time,4.5
+FL10322,Emirates,Delhi,Kolkata,1,13321,61,166,Delayed,4.8
+FL10323,Akasa Air,Mumbai,Chennai,2.6,5505,189,113,Delayed,3.9
+FL10324,IndiGo,Kolkata,Mumbai,2.3,8503,165,109,On Time,4.8
+FL10325,Akasa Air,Mumbai,Delhi,1.1,2232,219,145,On Time,4.8
+FL10326,Air India,Kolkata,Chennai,3.5,11650,106,47,Delayed,3.3
+FL10329,IndiGo,Delhi,Kolkata,3.5,4079,113,196,On Time,3.5
+FL10330,Air India,Hyderabad,Chennai,1.8,3936,103,92,On Time,4.7
+FL10331,IndiGo,Chennai,Mumbai,2,10150,188,115,On Time,2.5
+FL10332,AirAsia India,Chennai,Bangalore,3.9,7941,103,195,On Time,3
+FL10333,Vistara,Mumbai,Delhi,5.9,7799,106,80,Delayed,2.9
+FL10335,Vistara,Chennai,Kolkata,4.9,3693,104,137,Delayed,2.6
+FL10336,Akasa Air,Mumbai,Hyderabad,2.2,8181,165,42,Delayed,2.5
+FL10337,Akasa Air,Chennai,Mumbai,2.6,13976,131,33,On Time,2.7
+FL10338,Air India,Kolkata,Hyderabad,5.3,7080,167,187,On Time,2.6
+FL10339,IndiGo,Delhi,Bangalore,2.3,5254,160,52,On Time,3.5
+FL10341,Vistara,Chennai,Bangalore,2.8,14563,146,44,On Time,3.2
+FL10342,SpiceJet,Bangalore,Chennai,4.9,11532,200,88,Delayed,3.7
+FL10343,Alliance Air,Chennai,Bangalore,4.6,9702,80,119,On Time,2.7
+FL10344,AirAsia India,Bangalore,Delhi,5.5,8690,150,197,On Time,4.9
+FL10345,SpiceJet,Delhi,Kolkata,4.8,8747,99,87,Delayed,3.2
+FL10346,Go First,Hyderabad,Mumbai,2.4,2419,119,104,On Time,4.4
+FL10347,AirAsia India,Chennai,Kolkata,3.3,9903,67,144,On Time,3.2
+FL10350,Alliance Air,Bangalore,Mumbai,4.8,12301,108,102,Delayed,2.6
+FL10351,SpiceJet,Delhi,Hyderabad,4.1,4462,212,33,Delayed,3.3
+FL10352,Emirates,Kolkata,Chennai,2.8,13000,110,91,On Time,2.6
+FL10353,Go First,Kolkata,Delhi,3,13084,115,48,On Time,5
+FL10354,AirAsia India,Bangalore,Delhi,5.8,2868,143,98,Delayed,5
+FL10355,Akasa Air,Chennai,Bangalore,2.8,2486,135,187,On Time,3.1
+FL10356,Vistara,Kolkata,Bangalore,5,6303,164,77,On Time,2.6
+FL10357,Alliance Air,Delhi,Kolkata,4.8,9987,104,71,On Time,4.5
+FL10358,AirAsia India,Chennai,Hyderabad,4.1,2233,199,159,Delayed,4.8
+FL10359,Emirates,Delhi,Hyderabad,4.9,3083,202,94,On Time,4.9
+FL10360,AirAsia India,Mumbai,Hyderabad,4.5,3852,218,169,On Time,4.7
+FL10361,Air India,Kolkata,Hyderabad,1.9,4520,98,187,On Time,3.8
+FL10362,IndiGo,Kolkata,Mumbai,1.6,12527,106,99,On Time,2.9
+FL10363,Alliance Air,Kolkata,Chennai,5.7,10401,105,36,On Time,3.6
+FL10364,AirAsia India,Chennai,Bangalore,2.6,6845,112,172,On Time,2.9
+FL10365,Emirates,Bangalore,Hyderabad,1.4,3222,191,108,Delayed,4.3
+FL10366,Go First,Kolkata,Delhi,5.1,2869,110,83,On Time,4.1
+FL10367,Akasa Air,Mumbai,Hyderabad,5.6,12932,126,63,Delayed,3.6
+FL10368,SpiceJet,Delhi,Hyderabad,2.4,4777,86,169,Delayed,4.5
+FL10369,IndiGo,Bangalore,Kolkata,3.9,10062,189,73,On Time,4.2
+FL10371,Akasa Air,Mumbai,Chennai,1.9,6777,78,153,On Time,3.5
+FL10373,Emirates,Kolkata,Delhi,2.1,2356,203,164,On Time,3.7
+FL10374,Go First,Hyderabad,Kolkata,5.7,4708,132,156,On Time,4.5
+FL10375,IndiGo,Chennai,Kolkata,5.3,11336,204,139,Delayed,4.9
+FL10376,Alliance Air,Bangalore,Delhi,5.9,9968,91,86,On Time,4.9
+FL10377,Go First,Delhi,Mumbai,5.2,10236,92,102,Delayed,3.8
+FL10379,Go First,Mumbai,Kolkata,4.3,4499,215,156,On Time,3.9
+FL10380,Akasa Air,Hyderabad,Mumbai,3.3,9824,210,78,On Time,4.2
+FL10381,Air India,Chennai,Mumbai,4.3,5322,85,178,On Time,5
+FL10382,AirAsia India,Kolkata,Bangalore,4.7,9966,79,85,Delayed,4.1
+FL10383,Go First,Delhi,Mumbai,4.3,7830,123,161,On Time,4.5
+FL10384,AirAsia India,Mumbai,Hyderabad,2.2,2687,139,65,On Time,4.9
+FL10385,Emirates,Bangalore,Kolkata,4.8,13680,113,43,On Time,4.1
+FL10386,Go First,Mumbai,Kolkata,2.3,11815,173,88,Delayed,4.6
+FL10387,Akasa Air,Delhi,Kolkata,4.1,14983,187,145,On Time,3.6
+FL10388,AirAsia India,Chennai,Mumbai,4.3,13765,60,84,Delayed,3.7
+FL10389,IndiGo,Mumbai,Hyderabad,2.6,2614,217,115,Delayed,3.4
+FL10390,AirAsia India,Hyderabad,Mumbai,5.2,8829,201,99,Delayed,2.9
+FL10391,Vistara,Bangalore,Kolkata,5,6435,197,119,On Time,3.1
+FL10394,AirAsia India,Bangalore,Delhi,3.3,8109,93,132,Delayed,3.1
+FL10395,Alliance Air,Chennai,Delhi,1.3,5440,123,136,On Time,4.3
+FL10396,IndiGo,Bangalore,Kolkata,3.6,10089,122,138,On Time,4
+FL10397,IndiGo,Chennai,Kolkata,2.8,9796,186,93,On Time,3.5
+FL10398,Akasa Air,Bangalore,Delhi,5.4,9496,64,79,On Time,3.4
+FL10399,Alliance Air,Mumbai,Chennai,5.8,10015,143,197,Delayed,2.9
+FL10400,IndiGo,Bangalore,Mumbai,5.2,13540,169,109,Delayed,2.7
+FL10401,Vistara,Bangalore,Kolkata,5.2,3705,92,59,On Time,2.6
+FL10402,AirAsia India,Delhi,Bangalore,4.1,2696,97,136,Cancelled,3.2
+FL10403,Air India,Hyderabad,Mumbai,4.7,6916,145,70,On Time,3.8
+FL10405,Vistara,Bangalore,Mumbai,4.8,13512,138,204,On Time,4.2
+FL10406,Emirates,Hyderabad,Delhi,3.7,9223,170,63,On Time,4.7
+FL10407,Alliance Air,Mumbai,Delhi,1.5,6963,168,54,Delayed,3.8
+FL10408,Vistara,Mumbai,Bangalore,5.1,7499,196,80,Delayed,3.3
+FL10409,Akasa Air,Delhi,Mumbai,4.6,6757,154,178,Delayed,4.9
+FL10410,Alliance Air,Chennai,Mumbai,4.2,13302,82,115,On Time,2.9
+FL10411,Alliance Air,Mumbai,Delhi,4.5,2576,153,118,Delayed,4.1
+FL10413,IndiGo,Delhi,Mumbai,1.9,5206,107,122,Delayed,3.9
+FL10414,Air India,Delhi,Kolkata,4.7,13349,141,150,Delayed,5
+FL10415,Emirates,Mumbai,Delhi,4.6,13501,203,197,On Time,2.8
+FL10416,Alliance Air,Hyderabad,Kolkata,5.5,6068,121,30,On Time,4.7
+FL10417,Akasa Air,Hyderabad,Mumbai,2.6,14848,91,157,Cancelled,2.9
+FL10418,AirAsia India,Kolkata,Hyderabad,3.8,9756,201,106,On Time,4.4
+FL10419,Air India,Kolkata,Mumbai,2,5340,178,78,On Time,3.5
+FL10420,Akasa Air,Kolkata,Delhi,2.2,6282,139,91,On Time,3.8
+FL10421,Emirates,Mumbai,Bangalore,2.3,2869,89,145,On Time,3.5
+FL10422,Alliance Air,Bangalore,Chennai,2.9,12632,214,31,On Time,4.8
+FL10423,SpiceJet,Kolkata,Chennai,1.1,2936,76,132,On Time,3.8
+FL10424,SpiceJet,Kolkata,Mumbai,4,9484,70,51,On Time,4
+FL10426,Akasa Air,Kolkata,Delhi,1.5,6074,135,59,Delayed,3.6
+FL10427,Go First,Delhi,Chennai,5.9,9837,74,202,On Time,3.1
+FL10428,Alliance Air,Chennai,Hyderabad,4.4,7247,194,48,On Time,3.3
+FL10429,Alliance Air,Mumbai,Hyderabad,3.8,3219,183,127,Delayed,4.6
+FL10430,AirAsia India,Mumbai,Bangalore,2.5,2462,110,102,On Time,3.7
+FL10431,Emirates,Kolkata,Mumbai,3.9,12280,63,194,On Time,3.7
+FL10432,Emirates,Delhi,Mumbai,4,8158,130,172,On Time,4.2
+FL10433,AirAsia India,Mumbai,Kolkata,2.2,9683,212,177,On Time,4.8
+FL10434,Vistara,Bangalore,Delhi,1.1,5026,101,55,Delayed,3.1
+FL10435,Vistara,Chennai,Hyderabad,1.2,4503,172,42,On Time,4.6
+FL10436,Vistara,Mumbai,Chennai,2.1,3374,66,42,Delayed,4.6
+FL10437,Go First,Bangalore,Kolkata,2.4,2967,77,60,On Time,3.1
+FL10440,Air India,Kolkata,Delhi,1.6,9714,150,34,Delayed,3.2
+FL10441,Akasa Air,Bangalore,Chennai,5.2,14399,102,108,On Time,2.7
+FL10442,Go First,Hyderabad,Delhi,3.1,9031,61,46,Delayed,2.9
+FL10443,SpiceJet,Delhi,Kolkata,1.3,13848,148,189,On Time,3.3
+FL10445,Emirates,Bangalore,Chennai,5.8,8310,126,76,On Time,3.4
+FL10446,Alliance Air,Delhi,Hyderabad,1.6,8936,80,108,On Time,3.9
+FL10447,IndiGo,Mumbai,Chennai,4,14223,212,79,On Time,4.5
+FL10448,Emirates,Chennai,Mumbai,1.8,5758,195,123,On Time,4.6
+FL10450,Akasa Air,Delhi,Hyderabad,2.4,10938,82,60,On Time,4.8
+FL10451,IndiGo,Delhi,Hyderabad,5,4556,175,157,On Time,3.5
+FL10452,Akasa Air,Kolkata,Mumbai,2.3,8530,75,143,Delayed,4.5
+FL10453,Alliance Air,Mumbai,Delhi,1.5,6981,192,207,On Time,4.1
+FL10454,IndiGo,Mumbai,Chennai,1.1,10236,139,62,On Time,2.6
+FL10455,AirAsia India,Delhi,Chennai,2.8,5984,94,119,On Time,3
+FL10456,Air India,Kolkata,Bangalore,2,5519,82,201,On Time,3
+FL10457,IndiGo,Bangalore,Delhi,2.8,13135,198,188,On Time,3
+FL10458,Alliance Air,Hyderabad,Mumbai,3.1,13330,117,207,On Time,3
+FL10459,AirAsia India,Chennai,Delhi,2.3,7119,76,101,On Time,3.3
+FL10461,SpiceJet,Kolkata,Delhi,4.5,3456,108,168,On Time,3.1
+FL10463,Alliance Air,Mumbai,Hyderabad,3.7,6835,79,144,On Time,4.1
+FL10464,Akasa Air,Chennai,Bangalore,1.8,10469,156,103,On Time,3.2
+FL10466,Alliance Air,Kolkata,Hyderabad,4.7,3471,148,89,Cancelled,4.8
+FL10467,AirAsia India,Delhi,Mumbai,4.1,8953,65,106,On Time,3.5
+FL10468,SpiceJet,Chennai,Kolkata,4.6,10826,148,48,On Time,4.9
+FL10469,Vistara,Kolkata,Hyderabad,5.5,14550,198,190,On Time,4.2
+FL10472,Air India,Chennai,Delhi,2,11053,219,88,Cancelled,4.6
+FL10474,Go First,Kolkata,Chennai,3.7,7356,211,107,On Time,2.6
+FL10475,Air India,Chennai,Hyderabad,5,5755,176,179,On Time,4.2
+FL10476,Vistara,Chennai,Bangalore,5.1,14910,122,42,On Time,2.5
+FL10477,Air India,Hyderabad,Bangalore,2,8525,107,201,On Time,2.7
+FL10478,Alliance Air,Mumbai,Bangalore,5.8,2866,213,131,On Time,4.4
+FL10479,Air India,Bangalore,Delhi,4.6,7866,138,180,On Time,3.2
+FL10480,Vistara,Chennai,Hyderabad,2.6,14538,89,189,On Time,4.4
+FL10482,AirAsia India,Hyderabad,Mumbai,1.9,2478,92,57,On Time,2.7
+FL10483,Go First,Hyderabad,Bangalore,5.3,9745,219,115,On Time,4.8
+FL10484,AirAsia India,Hyderabad,Chennai,5.1,6692,184,52,On Time,3.3
+FL10486,SpiceJet,Hyderabad,Chennai,2.8,14474,166,206,On Time,4.1
+FL10488,Air India,Chennai,Mumbai,5.2,12618,139,153,Cancelled,4.7
+FL10489,Go First,Hyderabad,Kolkata,2.7,3531,104,88,On Time,2.7
+FL10491,Akasa Air,Bangalore,Chennai,2.9,5387,153,35,On Time,4.8
+FL10493,Alliance Air,Delhi,Kolkata,3.2,8604,107,58,Delayed,3.6
+FL10494,Akasa Air,Bangalore,Kolkata,1.3,14700,127,172,On Time,4.6
+FL10495,Akasa Air,Bangalore,Hyderabad,4.1,12588,122,69,On Time,3.1
+FL10496,IndiGo,Delhi,Hyderabad,5.4,2499,134,157,On Time,3.2
+FL10497,Go First,Chennai,Mumbai,1.3,6970,160,119,On Time,3.1
+FL10499,Go First,Bangalore,Hyderabad,1.5,12170,157,72,Delayed,3.8
+FL10500,AirAsia India,Mumbai,Delhi,5.8,14280,212,103,On Time,3.6
+FL10503,Go First,Mumbai,Hyderabad,6,11161,159,132,Delayed,2.8
+FL10505,Akasa Air,Hyderabad,Delhi,4.2,8706,78,84,Delayed,4.2
+FL10506,Emirates,Kolkata,Bangalore,2.2,13510,91,198,On Time,4.6
+FL10507,Alliance Air,Mumbai,Kolkata,5.2,14539,115,80,On Time,3.9
+FL10508,Alliance Air,Mumbai,Hyderabad,2.5,3895,102,58,On Time,4.9
+FL10509,Emirates,Kolkata,Delhi,1.5,6006,118,126,On Time,3.4
+FL10510,SpiceJet,Kolkata,Mumbai,2.3,9012,197,115,On Time,3.6
+FL10512,Alliance Air,Chennai,Kolkata,5.6,12904,110,68,On Time,3.3
+FL10513,IndiGo,Delhi,Chennai,5.8,7669,134,173,Delayed,3.8
+FL10514,IndiGo,Bangalore,Mumbai,1.8,2817,165,187,On Time,4.8
+FL10515,AirAsia India,Bangalore,Mumbai,2.1,13226,108,55,Delayed,4.4
+FL10516,Alliance Air,Bangalore,Chennai,3.1,4765,172,178,On Time,3
+FL10517,IndiGo,Kolkata,Bangalore,3.5,5435,113,81,On Time,4.4
+FL10518,Vistara,Chennai,Bangalore,1.7,2992,105,87,On Time,2.7
+FL10519,Alliance Air,Hyderabad,Kolkata,1.9,5645,151,56,On Time,2.9
+FL10520,Akasa Air,Bangalore,Kolkata,1,7981,118,89,On Time,3.5
+FL10521,Vistara,Hyderabad,Kolkata,4.7,11709,213,123,Delayed,4.1
+FL10522,Go First,Mumbai,Delhi,2.2,4766,156,50,On Time,2.9
+FL10524,IndiGo,Kolkata,Delhi,5.1,6004,199,69,On Time,3.9
+FL10525,Go First,Delhi,Bangalore,1,8996,217,44,Cancelled,4.9
+FL10526,SpiceJet,Mumbai,Bangalore,4.3,8043,127,104,On Time,3.3
+FL10527,Akasa Air,Bangalore,Kolkata,5.7,6824,171,146,On Time,4.9
+FL10528,Go First,Mumbai,Chennai,3.2,13011,71,185,Delayed,3.2
+FL10529,Emirates,Hyderabad,Chennai,3.4,11490,157,185,Delayed,4.6
+FL10530,IndiGo,Hyderabad,Bangalore,3.9,6596,98,151,On Time,4.2
+FL10531,Go First,Mumbai,Hyderabad,4.3,5623,185,156,On Time,4.1
+FL10532,SpiceJet,Bangalore,Delhi,3.2,12763,129,85,On Time,3.5
+FL10533,Go First,Mumbai,Hyderabad,2.6,3513,90,206,On Time,2.8
+FL10536,Alliance Air,Bangalore,Delhi,5.1,2467,178,85,On Time,4
+FL10537,Alliance Air,Chennai,Hyderabad,5.8,6557,164,165,Cancelled,2.7
+FL10538,Alliance Air,Delhi,Kolkata,5.3,2313,100,155,On Time,3.7
+FL10539,Vistara,Bangalore,Mumbai,4.1,6037,144,176,On Time,4.7
+FL10540,SpiceJet,Bangalore,Hyderabad,5.6,13531,168,205,On Time,4.7
+FL10541,AirAsia India,Hyderabad,Chennai,5.4,3087,213,151,Delayed,3.6
+FL10542,Akasa Air,Delhi,Hyderabad,4.5,13448,184,115,Delayed,3.8
+FL10543,Emirates,Chennai,Delhi,4,5144,167,155,On Time,4.7
+FL10546,Go First,Delhi,Mumbai,5.8,4832,64,30,On Time,3.9
+FL10547,Alliance Air,Bangalore,Kolkata,1.4,6876,181,145,On Time,3.9
+FL10548,Vistara,Delhi,Chennai,4.8,5620,178,102,On Time,3.9
+FL10549,SpiceJet,Hyderabad,Mumbai,5.2,3461,218,144,On Time,3.2
+FL10550,IndiGo,Delhi,Bangalore,2.3,10169,174,59,On Time,4.4
+FL10551,Vistara,Mumbai,Bangalore,2.2,6805,209,53,Delayed,4
+FL10552,Akasa Air,Delhi,Bangalore,1.5,12510,140,90,On Time,3.9
+FL10553,SpiceJet,Chennai,Kolkata,5.2,2838,120,179,On Time,2.8
+FL10554,Go First,Kolkata,Delhi,3.5,10791,170,160,Delayed,4.5
+FL10556,SpiceJet,Hyderabad,Mumbai,2.5,4152,89,186,On Time,4.1
+FL10557,Emirates,Hyderabad,Mumbai,3.6,10810,110,61,Delayed,3.6
+FL10559,Emirates,Chennai,Delhi,3.4,2541,205,176,Delayed,4.7
+FL10560,Air India,Chennai,Kolkata,4.2,2789,86,164,Cancelled,3.9
+FL10561,Akasa Air,Mumbai,Delhi,1.4,8440,68,37,On Time,2.8
+FL10562,Vistara,Chennai,Hyderabad,1.7,6410,192,182,Delayed,3.6
+FL10563,Emirates,Mumbai,Bangalore,6,4015,127,169,On Time,3
+FL10564,Go First,Chennai,Hyderabad,3.9,7765,83,196,On Time,4.8
+FL10565,IndiGo,Mumbai,Kolkata,1.8,12926,85,146,On Time,3.7
+FL10566,Emirates,Hyderabad,Delhi,4.9,13585,71,113,On Time,3
+FL10567,Air India,Hyderabad,Mumbai,3.9,7755,165,159,Delayed,4.6
+FL10568,Air India,Delhi,Mumbai,2.3,6661,194,63,On Time,4.2
+FL10569,Akasa Air,Kolkata,Chennai,5.1,4405,188,110,On Time,3.1
+FL10571,Vistara,Kolkata,Mumbai,1.5,2501,81,201,On Time,3
+FL10572,AirAsia India,Kolkata,Chennai,6,2556,178,168,On Time,4.4
+FL10574,Vistara,Bangalore,Hyderabad,5,4865,142,71,On Time,4.5
+FL10575,Air India,Chennai,Bangalore,5.8,4669,124,57,On Time,2.7
+FL10576,Go First,Mumbai,Hyderabad,5.8,12928,133,37,On Time,3.2
+FL10577,AirAsia India,Hyderabad,Kolkata,3.3,9761,166,197,On Time,3.7
+FL10580,Emirates,Kolkata,Chennai,2.9,7068,135,92,On Time,5
+FL10581,Air India,Hyderabad,Bangalore,1.2,2582,161,81,On Time,2.6
+FL10582,AirAsia India,Bangalore,Kolkata,1.4,12472,194,76,On Time,3
+FL10583,IndiGo,Delhi,Bangalore,3.9,3702,152,145,Delayed,3.8
+FL10584,IndiGo,Bangalore,Mumbai,3.9,12450,104,115,On Time,3.9
+FL10585,Go First,Mumbai,Chennai,4.7,10309,72,88,On Time,3.7
+FL10586,Air India,Kolkata,Hyderabad,3.3,6323,101,70,Delayed,2.9
+FL10587,Alliance Air,Mumbai,Chennai,1.9,6131,131,80,On Time,4.2
+FL10589,Vistara,Mumbai,Kolkata,4.3,3681,85,197,On Time,4.2
+FL10590,AirAsia India,Chennai,Kolkata,2.4,11553,214,105,On Time,4.8
+FL10591,Akasa Air,Kolkata,Bangalore,3.4,2680,185,34,On Time,3.5
+FL10594,SpiceJet,Bangalore,Mumbai,3.7,13380,98,108,Delayed,4.5
+FL10595,IndiGo,Kolkata,Delhi,4.4,9633,121,183,On Time,2.8
+FL10596,Emirates,Mumbai,Chennai,2.3,3599,198,186,On Time,4.8
+FL10597,Air India,Delhi,Bangalore,1.8,9989,129,143,Delayed,4.9
+FL10598,AirAsia India,Delhi,Bangalore,3.7,4702,157,100,On Time,3.8
+FL10599,IndiGo,Chennai,Kolkata,1.4,14111,127,159,On Time,3.6
+FL10600,IndiGo,Mumbai,Delhi,5.7,12852,159,201,On Time,3.6
+FL10601,Alliance Air,Bangalore,Delhi,4.8,10877,173,199,Delayed,4.6
+FL10602,SpiceJet,Bangalore,Mumbai,3.3,7365,106,192,On Time,4.9
+FL10603,SpiceJet,Mumbai,Chennai,4,2908,120,195,Delayed,3
+FL10604,Vistara,Bangalore,Delhi,5.7,11073,156,199,On Time,4.5
+FL10605,Vistara,Delhi,Chennai,5.5,7297,119,195,On Time,4.6
+FL10606,IndiGo,Kolkata,Bangalore,5,5354,72,35,On Time,3.5
+FL10609,Vistara,Chennai,Hyderabad,5.5,12002,66,183,Delayed,3.2
+FL10610,SpiceJet,Chennai,Mumbai,5.3,4730,178,208,Delayed,3.9
+FL10611,Go First,Hyderabad,Delhi,3.6,14148,63,108,Delayed,3.9
+FL10612,IndiGo,Delhi,Mumbai,4,6462,127,175,Delayed,4.3
+FL10614,IndiGo,Kolkata,Hyderabad,3.8,5131,152,192,On Time,3.4
+FL10615,Alliance Air,Bangalore,Hyderabad,4.5,4051,210,201,Delayed,3.2
+FL10616,IndiGo,Kolkata,Hyderabad,2.6,11910,60,67,Delayed,3
+FL10617,Go First,Delhi,Kolkata,3.7,11203,200,30,On Time,3.6
+FL10618,Alliance Air,Delhi,Chennai,4.4,3893,197,199,On Time,2.9
+FL10620,Air India,Kolkata,Hyderabad,3.7,10306,213,189,On Time,2.7
+FL10621,IndiGo,Bangalore,Delhi,3.7,4337,110,57,On Time,4.2
+FL10622,Vistara,Kolkata,Hyderabad,3.8,11732,134,144,On Time,2.7
+FL10623,AirAsia India,Hyderabad,Chennai,2.6,3250,171,133,Delayed,4.5
+FL10625,Emirates,Bangalore,Chennai,1.8,10510,202,77,On Time,4
+FL10626,Air India,Chennai,Hyderabad,1.5,7754,184,180,On Time,4.9
+FL10627,Vistara,Kolkata,Mumbai,3.2,9489,168,53,On Time,3.4
+FL10628,Vistara,Chennai,Kolkata,3.6,7973,212,147,On Time,3.6
+FL10630,IndiGo,Bangalore,Mumbai,4.4,7965,187,39,On Time,3.9
+FL10631,Akasa Air,Kolkata,Hyderabad,2.3,9431,176,171,Delayed,3.6
+FL10632,Akasa Air,Mumbai,Kolkata,1.6,9450,109,156,On Time,5
+FL10633,IndiGo,Mumbai,Kolkata,3.8,9511,123,141,On Time,4
+FL10634,Go First,Chennai,Kolkata,1.5,2765,68,49,Delayed,2.5
+FL10635,Akasa Air,Hyderabad,Delhi,2.9,12487,95,183,On Time,3
+FL10636,Alliance Air,Hyderabad,Bangalore,5.8,2625,196,134,Delayed,4.2
+FL10637,Air India,Kolkata,Hyderabad,3.7,10317,124,164,Delayed,4.6
+FL10638,IndiGo,Delhi,Mumbai,4.7,7587,188,184,On Time,4
+FL10639,Alliance Air,Mumbai,Bangalore,5.4,3967,158,110,On Time,4.9
+FL10641,Go First,Bangalore,Mumbai,6,3669,140,110,On Time,4.4
+FL10642,AirAsia India,Mumbai,Hyderabad,4.5,5367,157,133,On Time,4.2
+FL10644,Akasa Air,Mumbai,Kolkata,2,14591,195,48,Delayed,2.6
+FL10645,IndiGo,Chennai,Mumbai,2.5,9779,85,73,On Time,3.9
+FL10646,AirAsia India,Kolkata,Delhi,2,12685,197,59,On Time,4.2
+FL10647,SpiceJet,Hyderabad,Bangalore,1.7,8941,205,81,Cancelled,4.7
+FL10648,Vistara,Hyderabad,Chennai,1.8,5818,204,102,On Time,4
+FL10649,IndiGo,Chennai,Bangalore,3.3,4108,136,51,On Time,3.6
+FL10650,Air India,Chennai,Mumbai,3.6,5411,84,45,On Time,2.7
+FL10651,IndiGo,Hyderabad,Kolkata,2.8,4379,122,30,On Time,3.6
+FL10652,Emirates,Delhi,Mumbai,3.6,9136,142,152,Delayed,4.9
+FL10653,Vistara,Mumbai,Kolkata,5.3,8939,203,205,Delayed,3.9
+FL10654,Alliance Air,Chennai,Delhi,2.4,11233,145,155,Cancelled,4.4
+FL10655,Air India,Bangalore,Kolkata,2.3,14014,200,49,Delayed,4.8
+FL10656,AirAsia India,Chennai,Hyderabad,2.4,14014,63,195,Delayed,3.1
+FL10657,Akasa Air,Mumbai,Bangalore,3,6076,131,175,On Time,3.2
+FL10658,AirAsia India,Mumbai,Delhi,5.5,5864,139,34,Delayed,4.4
+FL10660,Air India,Hyderabad,Mumbai,4.4,9741,98,156,Delayed,3.3
+FL10661,Alliance Air,Delhi,Mumbai,4,3154,166,58,On Time,4.5
+FL10662,Go First,Bangalore,Chennai,1.9,11029,176,92,On Time,4.6
+FL10663,Emirates,Bangalore,Delhi,1.7,14404,92,174,On Time,3
+FL10664,AirAsia India,Delhi,Kolkata,5.4,14502,180,77,On Time,2.5
+FL10665,Air India,Chennai,Hyderabad,5.3,5773,69,88,On Time,4.9
+FL10666,IndiGo,Hyderabad,Kolkata,1.1,13253,194,71,On Time,3.8
+FL10667,Alliance Air,Hyderabad,Chennai,4.5,12820,74,57,Delayed,3.8
+FL10669,Alliance Air,Mumbai,Chennai,4.4,13690,82,146,Delayed,4.4
+FL10670,IndiGo,Bangalore,Hyderabad,5.6,7948,217,58,Cancelled,3.4
+FL10671,SpiceJet,Chennai,Hyderabad,3.3,11766,65,56,On Time,3.8
+FL10673,Akasa Air,Delhi,Chennai,5.5,11976,209,163,Delayed,3.4
+FL10674,IndiGo,Chennai,Delhi,2.2,7239,98,154,On Time,3.9
+FL10675,Emirates,Mumbai,Chennai,2.2,2217,65,201,On Time,3.4
+FL10676,AirAsia India,Chennai,Hyderabad,1.8,14974,164,197,On Time,4.9
+FL10677,Vistara,Hyderabad,Mumbai,5.6,3305,147,48,On Time,2.6
+FL10678,AirAsia India,Chennai,Bangalore,5.7,6559,110,146,On Time,4.3
+FL10679,Vistara,Chennai,Mumbai,2.3,3012,127,66,On Time,3.8
+FL10680,IndiGo,Bangalore,Mumbai,2.5,8157,217,176,Delayed,4.1
+FL10681,Air India,Mumbai,Chennai,5,9440,160,174,On Time,3
+FL10682,AirAsia India,Mumbai,Delhi,4.7,2464,185,60,On Time,4.9
+FL10683,Akasa Air,Hyderabad,Mumbai,1.6,3131,101,149,Delayed,3.7
+FL10684,Akasa Air,Delhi,Bangalore,3.7,12175,214,47,On Time,4.3
+FL10685,Air India,Bangalore,Mumbai,4.2,11406,64,180,On Time,2.7
+FL10686,Alliance Air,Delhi,Bangalore,1.9,2467,182,175,On Time,3.2
+FL10687,AirAsia India,Hyderabad,Bangalore,1.6,9739,208,104,Delayed,4.8
+FL10689,Alliance Air,Chennai,Hyderabad,1.2,13548,196,203,On Time,3.4
+FL10690,IndiGo,Kolkata,Chennai,2.4,5693,60,86,On Time,3
+FL10691,Air India,Mumbai,Hyderabad,4.3,3216,91,85,Delayed,3.3
+FL10692,Alliance Air,Kolkata,Mumbai,6,8973,110,140,On Time,4.1
+FL10693,Alliance Air,Kolkata,Mumbai,3.8,10289,197,199,Delayed,4.7
+FL10694,Vistara,Chennai,Mumbai,2.7,7995,93,66,On Time,3.8
+FL10695,SpiceJet,Hyderabad,Kolkata,3.7,5043,64,92,Delayed,4.8
+FL10696,IndiGo,Chennai,Kolkata,1.1,12658,83,121,On Time,4.3
+FL10697,IndiGo,Delhi,Bangalore,1.2,8235,90,61,On Time,4.8
+FL10699,Emirates,Bangalore,Delhi,2.8,3467,124,44,On Time,4.7
+FL10700,IndiGo,Kolkata,Chennai,1.8,14307,100,178,On Time,4.4
+FL10701,Air India,Hyderabad,Bangalore,5.8,6338,117,181,On Time,4.9
+FL10702,Akasa Air,Mumbai,Bangalore,5.6,4025,217,108,On Time,2.6
+FL10703,IndiGo,Bangalore,Mumbai,2.3,12341,195,49,On Time,2.7
+FL10705,Vistara,Kolkata,Bangalore,2.1,12920,133,57,Delayed,2.5
+FL10707,Go First,Delhi,Kolkata,3.9,9158,76,74,On Time,3.9
+FL10708,Vistara,Chennai,Delhi,2.9,14805,62,47,Cancelled,3.5
+FL10709,IndiGo,Bangalore,Delhi,5,3958,170,54,On Time,2.8
+FL10710,Emirates,Kolkata,Mumbai,1.3,14352,105,57,On Time,4.4
+FL10711,AirAsia India,Delhi,Bangalore,1.9,2287,122,125,Delayed,2.9
+FL10712,AirAsia India,Kolkata,Chennai,1.7,11892,84,31,On Time,5
+FL10713,IndiGo,Hyderabad,Chennai,3.2,2769,85,90,On Time,3.3
+FL10716,Vistara,Delhi,Bangalore,3.8,10012,206,138,Delayed,2.6
+FL10717,Alliance Air,Mumbai,Hyderabad,2.7,5575,142,89,On Time,3.1
+FL10718,SpiceJet,Kolkata,Delhi,4.9,5943,143,32,Delayed,4.2
+FL10720,Air India,Delhi,Kolkata,3.4,3456,113,110,On Time,2.5
+FL10721,AirAsia India,Delhi,Bangalore,3.1,10878,160,76,On Time,3.3
+FL10722,Go First,Kolkata,Delhi,1.7,14459,187,85,Cancelled,3.4
+FL10723,Alliance Air,Bangalore,Delhi,2.1,13489,169,87,On Time,3.2
+FL10724,Emirates,Delhi,Hyderabad,2.7,12464,212,178,Delayed,4.4
+FL10725,Emirates,Kolkata,Bangalore,3.9,14668,126,121,Delayed,2.8
+FL10726,Emirates,Bangalore,Hyderabad,3.2,11779,152,124,On Time,3.9
+FL10727,Emirates,Mumbai,Chennai,2.7,3974,76,102,On Time,2.6
+FL10730,Air India,Chennai,Kolkata,2.2,11923,179,83,On Time,3.3
+FL10732,Air India,Delhi,Hyderabad,3.5,5023,120,93,Delayed,3.9
+FL10733,Emirates,Kolkata,Chennai,5.7,9440,72,131,On Time,4.9
+FL10734,IndiGo,Hyderabad,Delhi,4,14748,199,104,On Time,4.3
+FL10735,Emirates,Bangalore,Kolkata,5.8,3329,172,102,On Time,3.7
+FL10736,Alliance Air,Delhi,Mumbai,1.4,14957,137,209,Delayed,4
+FL10737,Akasa Air,Mumbai,Kolkata,1.3,13386,138,124,On Time,3.4
+FL10739,IndiGo,Delhi,Kolkata,4.6,13171,131,45,On Time,4.6
+FL10740,Go First,Kolkata,Mumbai,5.2,13215,217,81,On Time,4.7
+FL10741,SpiceJet,Mumbai,Chennai,3.1,2480,207,133,On Time,3.8
+FL10742,SpiceJet,Mumbai,Chennai,1.7,9143,154,49,Delayed,4.4
+FL10743,AirAsia India,Hyderabad,Kolkata,1.7,9218,162,76,On Time,4.6
+FL10744,Air India,Chennai,Delhi,5.1,2222,110,75,Delayed,4
+FL10745,Air India,Mumbai,Chennai,2.1,5591,146,136,On Time,4.8
+FL10746,Go First,Kolkata,Mumbai,2.8,6332,128,194,On Time,4
+FL10747,Vistara,Hyderabad,Kolkata,3.5,5057,169,52,On Time,3.8
+FL10748,IndiGo,Delhi,Kolkata,1.4,4050,81,159,Delayed,4.3
+FL10749,Go First,Chennai,Delhi,4.5,11999,83,33,On Time,4
+FL10750,IndiGo,Mumbai,Delhi,5,8736,121,56,On Time,4.7
+FL10751,SpiceJet,Delhi,Hyderabad,4.6,2206,88,159,On Time,4.5
+FL10752,Akasa Air,Hyderabad,Delhi,5.4,12242,136,150,On Time,3.8
+FL10754,SpiceJet,Mumbai,Kolkata,3.1,3454,156,120,On Time,4.7
+FL10755,Emirates,Bangalore,Hyderabad,3.4,11651,158,111,On Time,3.6
+FL10759,Air India,Bangalore,Mumbai,5.6,3021,135,195,Cancelled,3.8
+FL10761,SpiceJet,Mumbai,Kolkata,1.5,14800,115,120,On Time,4.3
+FL10762,Air India,Mumbai,Bangalore,3.7,11858,206,177,Delayed,4.8
+FL10763,AirAsia India,Hyderabad,Mumbai,2.2,2465,158,141,On Time,4.9
+FL10765,Alliance Air,Kolkata,Bangalore,1.7,9573,80,43,On Time,4.6
+FL10766,AirAsia India,Bangalore,Kolkata,3.1,4277,148,94,Delayed,4.1
+FL10767,Alliance Air,Chennai,Kolkata,3.7,11756,115,68,Delayed,3.1
+FL10768,Air India,Kolkata,Chennai,1.2,9898,152,104,Delayed,2.6
+FL10769,Go First,Chennai,Bangalore,5,11193,66,75,On Time,4
+FL10771,AirAsia India,Hyderabad,Chennai,3.3,12764,135,198,On Time,4.7
+FL10772,Akasa Air,Bangalore,Chennai,5.5,10752,112,196,Delayed,4.8
+FL10773,IndiGo,Bangalore,Chennai,2.4,12567,119,60,Delayed,3.9
+FL10774,Akasa Air,Kolkata,Delhi,4.9,10926,219,170,On Time,4
+FL10776,Emirates,Hyderabad,Chennai,2.9,11910,196,84,Delayed,3.3
+FL10777,Vistara,Chennai,Hyderabad,2.7,7549,205,195,Delayed,4.5
+FL10778,Emirates,Kolkata,Bangalore,3.4,9961,73,142,On Time,3.7
+FL10779,SpiceJet,Chennai,Kolkata,1.9,10909,119,193,On Time,3.3
+FL10781,Air India,Kolkata,Mumbai,2.2,10134,141,61,On Time,3.8
+FL10782,AirAsia India,Kolkata,Chennai,3.8,12546,218,183,On Time,3.7
+FL10783,Akasa Air,Bangalore,Mumbai,3.4,5432,61,140,On Time,3.7
+FL10785,Alliance Air,Delhi,Mumbai,4.5,13497,200,77,On Time,4.9
+FL10787,AirAsia India,Chennai,Delhi,5.2,10253,152,172,Delayed,3.8
+FL10789,AirAsia India,Delhi,Kolkata,5.9,5592,174,135,Delayed,4.7
+FL10790,Akasa Air,Mumbai,Bangalore,4.1,3645,91,167,On Time,4.1
+FL10791,Go First,Hyderabad,Bangalore,2.4,12308,108,123,On Time,2.8
+FL10793,Akasa Air,Mumbai,Chennai,4.2,8967,102,176,On Time,3.8
+FL10794,IndiGo,Delhi,Hyderabad,4.1,3988,109,135,Cancelled,3.1
+FL10795,Go First,Delhi,Mumbai,3,5437,143,110,On Time,4.5
+FL10796,Vistara,Bangalore,Hyderabad,2.1,9875,191,197,On Time,3.2
+FL10798,Akasa Air,Hyderabad,Delhi,3.5,11321,97,187,Delayed,4
+FL10799,Go First,Kolkata,Delhi,2.5,14558,159,167,On Time,3.3
+FL10800,Air India,Mumbai,Kolkata,3.9,9361,165,185,On Time,3.3
+FL10801,Alliance Air,Mumbai,Chennai,5.1,8529,133,138,Delayed,3.2
+FL10802,Akasa Air,Mumbai,Chennai,1.1,9397,153,151,On Time,2.9
+FL10803,Akasa Air,Hyderabad,Mumbai,4,13647,193,76,On Time,3.1
+FL10804,Akasa Air,Delhi,Bangalore,3.6,10820,159,41,Delayed,3.4
+FL10805,Vistara,Kolkata,Hyderabad,1.7,2573,133,159,Delayed,3.2
+FL10806,Emirates,Bangalore,Chennai,1.5,9485,99,148,On Time,3.5
+FL10807,Alliance Air,Delhi,Hyderabad,5.1,14347,203,174,On Time,3.3
+FL10808,AirAsia India,Bangalore,Hyderabad,4.1,13380,198,46,On Time,4.6
+FL10809,AirAsia India,Kolkata,Chennai,5.7,9418,194,173,On Time,3.9
+FL10810,Emirates,Chennai,Hyderabad,3.9,4702,212,102,Delayed,2.9
+FL10812,AirAsia India,Mumbai,Delhi,3.5,8283,75,106,On Time,3.1
+FL10813,Vistara,Chennai,Delhi,4,12450,157,182,Delayed,4.3
+FL10814,AirAsia India,Kolkata,Delhi,1.3,8762,81,183,Cancelled,3.6
+FL10815,Emirates,Delhi,Kolkata,2.9,4575,104,206,On Time,4.9
+FL10816,Akasa Air,Mumbai,Kolkata,1.5,6583,160,96,On Time,2.7
+FL10817,Alliance Air,Kolkata,Delhi,3,4439,201,58,On Time,2.9
+FL10818,Emirates,Mumbai,Bangalore,4.2,4727,197,160,On Time,4.3
+FL10819,SpiceJet,Hyderabad,Chennai,4.4,10964,125,181,Delayed,3.1
+FL10820,SpiceJet,Chennai,Hyderabad,2.8,12755,132,208,On Time,2.6
+FL10821,Akasa Air,Kolkata,Bangalore,3.7,3645,165,91,Cancelled,3.9
+FL10823,Vistara,Kolkata,Chennai,5.6,14990,192,183,On Time,3.6
+FL10824,Emirates,Delhi,Chennai,5.3,12974,183,48,On Time,3.8
+FL10825,Emirates,Chennai,Kolkata,5.4,7758,135,118,On Time,2.5
+FL10828,AirAsia India,Delhi,Bangalore,3.9,10285,97,176,On Time,2.6
+FL10829,Emirates,Hyderabad,Kolkata,1.1,13816,64,198,On Time,3
+FL10830,IndiGo,Mumbai,Kolkata,4.9,7755,189,44,Cancelled,3
+FL10831,Alliance Air,Mumbai,Chennai,5,2767,151,67,On Time,4.6
+FL10832,SpiceJet,Hyderabad,Kolkata,1.7,13278,145,44,On Time,4.9
+FL10835,Go First,Hyderabad,Delhi,5.4,2582,208,71,On Time,3.3
+FL10836,Go First,Chennai,Hyderabad,4.3,7541,100,175,On Time,4.2
+FL10837,IndiGo,Bangalore,Delhi,3.2,2400,189,37,Delayed,3.1
+FL10838,AirAsia India,Kolkata,Hyderabad,2.7,3159,198,149,Cancelled,4.8
+FL10839,Akasa Air,Delhi,Hyderabad,5.3,3243,181,208,On Time,3.5
+FL10840,Air India,Kolkata,Bangalore,1.5,5971,151,81,Delayed,3.1
+FL10841,Emirates,Delhi,Hyderabad,4.1,3537,173,155,On Time,2.9
+FL10843,Go First,Hyderabad,Chennai,3.5,10978,100,31,On Time,2.9
+FL10844,Akasa Air,Bangalore,Kolkata,5,13250,101,75,Delayed,5
+FL10845,Alliance Air,Bangalore,Chennai,2.6,8358,118,47,On Time,2.7
+FL10846,SpiceJet,Bangalore,Kolkata,4.6,9382,157,41,Delayed,4.5
+FL10848,AirAsia India,Chennai,Mumbai,1,8483,187,190,On Time,4.8
+FL10849,Go First,Bangalore,Kolkata,2.7,12165,194,135,On Time,4.8
+FL10850,Vistara,Chennai,Delhi,5.2,8380,157,113,On Time,4.8
+FL10851,Alliance Air,Hyderabad,Mumbai,5.1,6785,153,103,On Time,3.2
+FL10852,Alliance Air,Mumbai,Kolkata,5.9,12056,219,193,Delayed,2.7
+FL10853,AirAsia India,Mumbai,Hyderabad,3.7,11103,146,166,Delayed,5
+FL10854,SpiceJet,Chennai,Mumbai,3,11550,209,129,On Time,4
+FL10855,Vistara,Chennai,Kolkata,2.6,11624,105,125,Delayed,3
+FL10856,IndiGo,Mumbai,Kolkata,5.7,9895,147,200,On Time,3.7
+FL10857,Akasa Air,Hyderabad,Bangalore,5.5,7146,79,93,Delayed,4.8
+FL10858,SpiceJet,Delhi,Kolkata,4,11708,205,57,On Time,2.7
+FL10859,IndiGo,Delhi,Mumbai,5.4,3081,190,91,On Time,4
+FL10860,Air India,Kolkata,Chennai,3.9,6968,165,34,Delayed,2.5
+FL10861,IndiGo,Bangalore,Mumbai,4.9,13143,96,120,On Time,3.5
+FL10862,SpiceJet,Chennai,Delhi,2.9,4357,97,177,On Time,4.2
+FL10863,Vistara,Bangalore,Mumbai,4.2,4400,89,75,On Time,3.5
+FL10864,IndiGo,Bangalore,Hyderabad,3.7,4314,173,189,Delayed,4.4
+FL10865,Go First,Delhi,Hyderabad,2.7,10435,137,109,On Time,3.6
+FL10866,Emirates,Chennai,Hyderabad,4.6,11004,149,203,On Time,3.9
+FL10867,SpiceJet,Hyderabad,Mumbai,1,7931,107,128,On Time,3.5
+FL10868,Vistara,Chennai,Mumbai,4,11856,204,82,On Time,3.7
+FL10869,Akasa Air,Kolkata,Bangalore,1.5,8384,195,171,On Time,3.5
+FL10870,Go First,Delhi,Chennai,4.7,10090,69,162,Delayed,3.1
+FL10872,Alliance Air,Mumbai,Kolkata,5.3,14599,97,74,Delayed,4.2
+FL10873,AirAsia India,Bangalore,Delhi,2.2,6170,147,88,On Time,3
+FL10874,AirAsia India,Bangalore,Kolkata,4.2,13792,154,170,On Time,2.6
+FL10875,SpiceJet,Hyderabad,Mumbai,2.6,6344,159,158,On Time,4.9
+FL10876,Emirates,Mumbai,Bangalore,3.5,4289,143,158,On Time,2.9
+FL10877,Emirates,Chennai,Bangalore,2.2,9370,189,153,On Time,2.8
+FL10878,AirAsia India,Chennai,Kolkata,1.1,11211,63,85,Delayed,4
+FL10879,Akasa Air,Mumbai,Bangalore,4.9,12059,82,139,On Time,3.5
+FL10880,Alliance Air,Chennai,Mumbai,2.2,2450,96,163,Delayed,4.3
+FL10881,Akasa Air,Mumbai,Delhi,5.7,8799,88,187,On Time,3.9
+FL10882,Emirates,Chennai,Bangalore,3.4,3547,105,84,On Time,3.9
+FL10883,IndiGo,Mumbai,Kolkata,4.6,5714,102,135,On Time,4.2
+FL10886,Go First,Bangalore,Delhi,2.8,7804,91,124,On Time,3.5
+FL10887,Go First,Mumbai,Chennai,4.7,6802,113,133,Delayed,4.3
+FL10888,Alliance Air,Hyderabad,Kolkata,2.5,8911,148,162,Delayed,3.8
+FL10889,Air India,Bangalore,Chennai,2.6,10939,207,63,Delayed,2.8
+FL10890,Emirates,Kolkata,Hyderabad,1.5,2371,78,36,On Time,3.1
+FL10893,Alliance Air,Mumbai,Kolkata,4.7,8308,61,38,On Time,3.8
+FL10894,IndiGo,Delhi,Mumbai,2,7886,214,192,Delayed,2.7
+FL10896,Air India,Hyderabad,Chennai,4.3,9829,99,110,Delayed,5
+FL10899,Air India,Chennai,Bangalore,2.4,8953,158,199,On Time,2.7
